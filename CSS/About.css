@@ -1,0 +1,134 @@
+/* Navbar */
+.navbar{
+    background-color: white;
+   
+}
+.navbar-brand img{
+    width:150px;
+}
+.navbar-brand{
+    margin-right:0;
+    padding: 0 1em;
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar .navbar-nav .nav-link{
+    color:rgb(8, 8, 8);
+    font-size: 1.1em;
+    padding: .5em 1em;
+}
+
+/* carousel2 */
+.container .t2 img{
+height: 300px;
+
+}
+/* footer */
+.footeri{
+    background-color: rgb(241, 239, 239);
+    color:rgb(12, 12, 12);
+    height:500px;
+  
+}
+.savo1{
+    text-align: center;
+}
+.savo1 h1{
+    font-family: "Kolker Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.open{
+   text-align: center;
+}
+.fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  } 
+.copyr{
+    text-align: center;
+}
+  .social a{
+    color:black;
+    font-size:35px;
+    margin: 0 10px;
+  }
+  .fo1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+ /* Lokacioni */
+.lokacioni{
+    margin-top:30px;
+}
+
+
+  /* carousel */
+  .c-item{
+    height:650px;
+}
+.c-img{
+    height:100%;
+    object-fit:cover;
+    filter:brightness(0.9);
+    filter: blur(0px); 
+    filter: contrast(150%);
+   opacity: 0.2;
+}
+.carousel-inner .caorusel-caption{
+    padding-bottom:170px;
+}
+
+.carousel-inner .caorusel-caption p{
+    font-family:'Coiny', cursive;
+}
+.since{
+     position: absolute;
+    top: 50%; 
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    color: rgb(9, 9, 9);
+    font-size: 45px;
+    text-align: center;
+    font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+   
+}
+.since p{
+    animation: bounce; 
+    animation-duration: 3s; 
+}
+/* about */
+  .container .foto1, .foto2{
+    border-radius: 10px;
+  
+    margin-top:60px;
+  }
+
+.container1 img{
+    width:300px;
+    height:300px;
+    margin-top:50px;
+    border-radius: 10px;
+}
+.teksti .p1 {
+    width:900px;
+    margin:auto;
+}
+
+.teksti{
+    text-align: center;
+    margin-top:80px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.teksti h1{
+    font-family: "Kolker Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

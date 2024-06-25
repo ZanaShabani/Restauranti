@@ -1,0 +1,185 @@
+/* Navbar */
+.navbar{
+    background-color: white;
+   
+}
+.navbar-brand img{
+    width:150px;
+}
+.navbar-brand{
+    margin-right:0;
+    padding: 0 1em;
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar .navbar-nav .nav-link{
+    color:rgb(8, 8, 8);
+    font-size: 1.1em;
+    padding: .5em 1em;
+}
+
+/* collapse */
+
+/* menyja */
+.menyja{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+/* Contenti */
+.contenti{
+   
+    position: relative;
+   
+} 
+.contenti video{
+width:100%;
+height:100%;
+
+}
+
+.eksploro{
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+   
+}
+.eksploro h1{
+    
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Ushqim */
+.fotot1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+}
+.fotot1  img{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+}
+.fotot2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+    margin-bottom: 40px;
+}
+.fotot2 img{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+}
+/* hyrja */
+.m1 h2{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size:60px;
+
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    margin-top:200px;
+}
+.m1 .linqet a{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(10, 10, 10);
+}
+.m1 .linqet a:hover{
+    transform:scale(1.1);
+}
+.m1 .linqet{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:40px;
+}
+
+/* Pijet */
+.pijet{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.pijet img{
+    width:200px;
+    height:200px;
+    border-radius: 30px;
+}
+/* footer */
+.footeri{
+    background-color: rgb(241, 239, 239);
+    color:rgb(12, 12, 12);
+    height:500px;
+  
+}
+.savo1{
+    text-align: center;
+}
+.savo1 h1{
+    font-family: "Kolker Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.open{
+   text-align: center;
+}
+.fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  } 
+
+  .social a{
+    color:black;
+    font-size:35px;
+    margin: 0 10px;
+  }
+  .fo1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .copyr{
+    text-align: center;
+  }
+ 
+ .fotot1 #myImg:hover{
+transform:scale(1.1);
+ }
+ .salat #myImg1:hover{
+    transform:scale(1.1);
+     }
+ .wine #myImg2:hover{
+        transform:scale(1.1);
+         }
+.caffe #myImg3:hover{
+ transform:scale(1.1);
+             }
+ .cola #myImg4:hover{
+    transform:scale(1.1);
+                 }
+.cake #myImg5:hover{
+      transform:scale(1.1);
+                     }
+
+.pasta #myImg6:hover{
+ transform:scale(1.1);  }
+
+ .meat #myImg7:hover{
+    transform:scale(1.1);
+                            }
